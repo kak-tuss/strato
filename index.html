@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title></title>
+	<meta content="en-us" http-equiv="Content-Language" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta content="" name="description" />
+	<link rel="stylesheet/less" href="layout/layout.less" type="text/css" />
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
+    <!-- <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<link rel="alternate" href="timeline.rss" title="RSS" type="application/rss+xml" /> -->	
+</head>
+<body>
+	<h1>City Flood</h1>
+
+	<div id="container_result">
+	</div>
+	
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min.js"></script>	
+	
+	<script id="cityTemplate" type="text/template">
+		<table class="city"></table>
+
+		<input type="button" id="populate" value="Populate City" />
+		<input type="button" id="flood" value="Flood!" />
+	</script>
+
+	<script src="js/scripts.js"></script>
+</body>
+</html>
